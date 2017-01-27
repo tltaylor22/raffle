@@ -12,12 +12,10 @@ class TestRaffleArray < Minitest::Test
 		assert_equal(Array, [].class)
 	end	
 
-
 	# A good first test could be a number and an empty array, which should return false.
-	# def test_empty_array_notequal=1
-	# 	results = create_raffle_array()
-	# 	assert_equal(false, Array == 1)
-	# end
+	def test_empty_array_not_equal_1
+		assert_equal(false, Array == 1)
+	end
 
 
 end		

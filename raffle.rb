@@ -1,6 +1,6 @@
 def create_raffle_array(num)
 	
-	array = []
+	raffle_array = []
 
 end
 	# num = 1 # starts a counter
