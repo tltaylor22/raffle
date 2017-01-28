@@ -18,4 +18,8 @@ class TestRaffleArray < Minitest::Test
 		assert_equal(true, (raffle.include? '1234'))
 	end	
 
+	def test_return_true_off_by_one_digit
+		raffle = create_raffle_array(['1234', '1235', '1236', '3456', '3457', '3458'])
+		assert_equal(true, (raffle))
+
 end		

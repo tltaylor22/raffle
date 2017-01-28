@@ -1,12 +1,6 @@
 def create_raffle_array(tickets)
 	array = []
-	winnum = '1234'
-
-	# if winnum == raffle
-	# 	true
-	# else winnum != raffle
-	# 	false
-	# end			
+	winnum = '1234'		
 
 end
 	# num = 1 # starts a counter
