@@ -1,6 +1,6 @@
-def create_raffle_array(tickets)
+def create_raffle_array(winning_numbers, my_number)	
 	array = []
-	winnum = '1234'		
+
 
 end
 	# num = 1 # starts a counter
